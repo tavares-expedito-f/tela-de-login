@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right,rgba(12, 0, 179, 0.5),rgba(132, 86, 240, 0.226));      
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div{
+   background-color: black;
+   position: absolute;
+   top: 20%;
+   left: 40%;
+   transform: translate(-50px);
+   padding: 80px;
+   border-radius: 15px;
+   color: white;
+}
+
+input{
+     padding : 15px;
+     outline: none;
+     font-size: 15px; 
+     border-radius: 10px;
+}
+
+button{
+   background-color: rgb(103, 103, 231);
+   border: none; 
+   padding: 15px;
+   width:100% ;
+   border-radius: 10px;
+   color: cornsilk;
+   font-size:15px;
+}
+
+button:hover{
+   background-color: aqua;
+   cursor: pointer;
+}
